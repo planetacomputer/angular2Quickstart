@@ -39,15 +39,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 	message = "Hola";
-	activeUser;
+	activeUser:any;
 	users = [
 		{id: 25, name: 'Chris', username: 'Sevilleja'},
 		{id: 26, name: 'David', username: 'Canovas'},
 		{id: 25, name: 'Dan', username: 'Vehouven'}
 	];
 
-	function selectUser(user){
-		console.log(user);
-		this.activeUser = user;
-	}
+	
 }

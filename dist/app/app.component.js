@@ -21,7 +21,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n  \t<header>\n\t\t<nav class=\"navbar navbar-inverse\">\n\t\t\t<div class=\"navbar-header\">\n\t\t\t\t<a href=\"/\" class=\"navbar-brand\">My Angular2 App</a>\n\t\t\t</div>\n\t\t</nav>\n  \t</header>\n  \t<main>\n  \t\t<div class=\"row\">\n\t  \t\t<div class=\"col-sm-4\">\n\t\t\t    <div *ngIf=\"users\">\n\t\t\t\t\t<ul class=\"list-group users-list\">\n\t\t\t\t\t\t<li class=\"list-group-item\"  *ngFor=\"let user of users\">\n\t\t\t\t\t\t\t{{user.name}} {{user.username}}\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-sm-8\">\n\t\t\t\t<div class=\"jumbotron\">\n\t\t\t      <h1>Welcome to Our App2!</h1>\n\t\t\t      <p>{{message}}</p>\n\t    \t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</main>\n\t<footer class=\"text-center\">\n\t\tCopyright &copy; 2106\n\t</footer>    \n  ",
+            template: "\n  \t<header>\n\t\t<nav class=\"navbar navbar-inverse\">\n\t\t\t<div class=\"navbar-header\">\n\t\t\t\t<a href=\"/\" class=\"navbar-brand\">My Angular2 App</a>\n\t\t\t</div>\n\t\t</nav>\n  \t</header>\n  \t<main>\n  \t\t<div class=\"row\">\n\t  \t\t<div class=\"col-sm-4\">\n\t\t\t    <div *ngIf=\"users\">\n\t\t\t\t\t<ul class=\"list-group users-list\">\n\t\t\t\t\t\t<li class=\"list-group-item\"  *ngFor=\"let user of users\">\n\t\t\t\t\t\t\t{{user.name}} {{user.username}}\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-sm-8\">\n\t\t\t\t<div class=\"jumbotron\">\n\t\t\t      <h1>Welcome to Our App2!</h1>\n\t\t\t      <p>{{message}}</p>\n\t    \t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</main>\n\t<footer class=\"text-center\">\n\t\tCopyright &copy; 2107\n\t</footer>    \n  ",
             styles: ["\n    .jumbotron { box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); }\n  "]
         }), 
         __metadata('design:paramtypes', [])
@@ -29,8 +29,4 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
-function selectUser(user) {
-    console.log(user);
-    this.activeUser = user;
-}
 //# sourceMappingURL=app.component.js.map
